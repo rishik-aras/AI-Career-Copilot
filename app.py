@@ -6,10 +6,10 @@ from pypdf import PdfReader
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 
-# Load API Key
+
 load_dotenv()
 
-# Gemini Model
+
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
     temperature=0.3
@@ -19,13 +19,13 @@ st.set_page_config(page_title="AI Career Copilot", page_icon="🚀")
 
 st.title("AI Career Copilot")
 
-# Upload Resume
+
 uploaded_file = st.file_uploader(
     " Upload Your Resume",
     type="pdf"
 )
 
-# Choose Career Goal
+
 career_goal = st.selectbox(
     " Target Role",
     [
@@ -37,10 +37,10 @@ career_goal = st.selectbox(
     ]
 )
 
-# Generate Report
+
 if uploaded_file and st.button("Analyze Resume"):
 
-    # Read PDF
+    
     reader = PdfReader(uploaded_file)
 
     resume_text = ""
