@@ -17,17 +17,17 @@ llm = ChatGoogleGenerativeAI(
 
 st.set_page_config(page_title="AI Career Copilot", page_icon="🚀")
 
-st.title("🚀 AI Career Copilot")
+st.title("AI Career Copilot")
 
 # Upload Resume
 uploaded_file = st.file_uploader(
-    "📄 Upload Your Resume",
+    " Upload Your Resume",
     type="pdf"
 )
 
 # Choose Career Goal
 career_goal = st.selectbox(
-    "🎯 Target Role",
+    " Target Role",
     [
         "AI Engineer",
         "ML Engineer",
@@ -51,7 +51,7 @@ if uploaded_file and st.button("Analyze Resume"):
         if text:
             resume_text += text
 
-    st.success("✅ Resume Uploaded Successfully")
+    st.success("Resume Uploaded Successfully")
 
     prompt = PromptTemplate(
         input_variables=["resume", "career_goal"],
@@ -103,6 +103,6 @@ Return ONLY in this format.
 
     st.divider()
 
-    st.header("📊 AI Career Report")
+    st.header(" AI Career Report")
 
     st.markdown(response.content)
