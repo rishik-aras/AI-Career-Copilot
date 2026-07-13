@@ -194,8 +194,6 @@ After uploading a resume, the application generates:
 
 Artificial Intelligence & Machine Learning Undergraduate
 
-Passionate about Artificial Intelligence, Machine Learning, NLP, and Generative AI.
-
 ---
 
 ## ⭐ If you found this project useful
