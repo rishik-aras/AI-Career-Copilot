@@ -19,17 +19,17 @@ The application helps users understand how their resume aligns with their desire
 
 ## ✨ Features
 
-- 📄 Upload Resume (PDF)
-- 🤖 AI Resume Analysis
-- 📊 ATS Score Evaluation
-- 💪 Resume Strength Analysis
-- ⚠️ Weakness Identification
-- 🧠 Missing Skill Detection
-- 🗺️ Personalized 4-Week Learning Roadmap
-- 💡 AI Project Recommendations
-- 🎤 Interview Question Generation
-- 📝 Professional Resume Summary
-- 🎯 Career-Specific Feedback
+-  Upload Resume (PDF)
+-  AI Resume Analysis
+- ATS Score Evaluation
+- Resume Strength Analysis
+- Weakness Identification
+- Missing Skill Detection
+- Personalized 4-Week Learning Roadmap
+- AI Project Recommendations
+- Interview Question Generation
+- Professional Resume Summary
+- Career-Specific Feedback
 
 ---
 
